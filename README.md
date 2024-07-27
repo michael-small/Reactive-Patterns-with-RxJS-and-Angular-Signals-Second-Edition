@@ -6,6 +6,22 @@ This is the code repository for [Reactive Patterns with RxJS and Angular Signals
 
 **Elevate your Angular 18 applications with RxJS Observables, subjects, operators, and Angular Signals**
 
+How to run the apps
+
+```bash
+# Terminal 1
+cd ChapXX/recipes-book-api/ # XX === Given chapter number
+npm i
+npm run server:start
+
+# ----
+
+# Terminal 2
+cd ChapXX/recipes-book-front
+npm i --force ## === there is some peer dep errors
+ng serve --proxy-config proxy.config.jso
+```
+
 ## What is this book about?
 This RxJS book will help you understand the core concepts of RxJS and provide practical patterns to make your code more reactive and declarative. You’ll also understand Angular Signals, which provide another way to improve code reactivity.
 
